@@ -96,6 +96,37 @@ html, body {
   width: 36px;
   height: 36px;
 }
+/*========date========*/
+
+#datePicker {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+.date-wrapper {
+  position: relative;
+  z-index: 30;
+}
+
+.date-wrapper input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.date-icon {
+  font-size: 18px;
+}
+
+.actions {
+  position: relative;
+  z-index: 30;
+}
+
 
 /* ================= SEARCH ================= */
 .search-box {
@@ -199,28 +230,4 @@ html, body {
   color: white;
 }
 
-#datePicker {
-  position: absolute;
-  opacity: 0;
-  width: 1px;
-  height: 1px;
-  pointer-events: none;
-}
 
-.date-wrapper {
-  position: relative;
-  width: 28px;
-  height: 28px;
-  display: inline-block;
-}
-
-.date-wrapper input {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.date-icon {
-  font-size: 18px;
-}
