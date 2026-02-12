@@ -214,10 +214,6 @@ function jump(index, query) {
 
 
 /* DATE */
-dateIcon.onclick = () => {
-  datePicker.focus();
-  datePicker.click();
-};
 
 datePicker.onchange=()=>{
   const i=allMessages.findIndex(m=>new Date(m.time).toISOString().slice(0,10)===datePicker.value);
@@ -235,4 +231,5 @@ function clearHighlights() {
     el.classList.remove("highlight");
   });
 }
+
 
