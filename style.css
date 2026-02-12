@@ -98,14 +98,6 @@ html, body {
 }
 /*========date========*/
 
-#datePicker {
-  position: absolute;
-  opacity: 0;
-  width: 1px;
-  height: 1px;
-  pointer-events: none;
-}
-
 .date-wrapper {
   position: relative;
   z-index: 30;
@@ -229,5 +221,6 @@ html, body {
   border: none;
   color: white;
 }
+
 
 
