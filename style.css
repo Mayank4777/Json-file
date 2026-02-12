@@ -206,3 +206,21 @@ html, body {
   height: 1px;
   pointer-events: none;
 }
+
+.date-wrapper {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}
+
+.date-wrapper input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.date-icon {
+  font-size: 18px;
+}
